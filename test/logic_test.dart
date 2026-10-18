@@ -1,0 +1,1 @@
+import 'package:churchhub/logic.dart';import 'package:flutter_test/flutter_test.dart';void main(){test('total giving',(){expect(totalGiving,45000);});test('members in group',(){expect(membersIn('Choir'),1);expect(membersIn('Men'),0);});test('groups list',(){expect(groups,contains('Youth'));});}
